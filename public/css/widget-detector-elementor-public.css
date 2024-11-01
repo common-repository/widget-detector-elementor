@@ -1,0 +1,233 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.w_d_e_name {
+   background: rgba(255, 0, 0, 0.7);
+   color: rgba(255, 255, 255, 0.7);
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   font-size: 14px;
+   padding: 0px;
+   margin: 0px;
+   z-index: 9999999;
+   font-weight: normal;
+}
+
+.w_d_e_hidden {
+   display: none;
+}
+
+
+.w_d_e_name .w_d_e_el_hint {
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 5px 5px;
+    line-height: 17px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #ffffff3d;
+    cursor: pointer;
+ }
+ 
+ 
+ .w_d_e_name .w_d_e_el_hint p {
+     margin-bottom: 5px !important;
+     position: relative;
+     padding-right: 15px;
+  }
+ 
+ .w_d_e_name .w_d_e_el_hint p a.copy_style {
+     position: absolute;
+     right: 0;
+     top: 0;
+     color: #fff;
+     font-weight: 600;
+     display: inline-block;
+     line-height: 17px;
+     width: 15px;
+     height: 15px;
+     text-align: center;
+     cursor: pointer;
+     margin-left: 0;
+     background-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAAAqo0jMgAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+cHGhEELu9P6/0AAAC/SURBVDjL7ZQxCsIwFIa/1i4eQHoCvYLo6OIZHEQcxEVHJ2/QXUVKEcQ7uDgqujl7hNIDqGCpQyg0aWqJm+CX7T0+8ie8BLLYBDxINCvmhAtgSUKHAxMi8jh4bJmrZZcxRezxRYgsIWtKcACo4tFUZMGTHau8MKWPT6wRaiy5cFWFOmdmBRkGNLJCGiP5EFu6SRtD/sKvCZaZMKLFzURos2EB6bSWM/z60GKHiC49Xpq+S4VQVz4Sa7+XO778Ht5k0zR3o6RbmgAAAABJRU5ErkJggg==');
+     background-position: center;
+     background-size: contain;
+  }
+ 
+ .w_d_e_name .w_d_e_el_hint p span.wde_color {
+     color: #fff;
+     font-weight: 600;
+     display: inline-block;
+     line-height: 17px;
+     width: 15px;
+     height: 15px;
+     text-align: center;
+     margin-left: 2px;
+     vertical-align: bottom; 
+     border: 1px solid #000; 
+ }
+ 
+ .w_d_e_name .w_d_e_el_copy_css {
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    border-radius: 0;
+    margin: 5px 5px;
+    margin-left: 5px;
+    line-height: 17px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 0;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAQAAAAa7ikwAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAAAqo0jMgAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+cHFg0gCeRHWpwAAAEGSURBVEjH7ZUxCsJAFERnYsBmbb2AYGdhmc4ikCqn8BIewSMpegW1sNQTBGzUFILsWCQGFWJWSArFaZZd/v+z87ZY4NvF1wPZwQCcTKBut7wrTYHxmDwcqgz85+HGgMsl0GoBm03tcaQgkCTZOK5rpv+8bbczBKeTM64CW5JA0ym97fbx2CtNU+CKIre7RhG4WMga8wbRaCRJ2foZLtk4znqDwCnBK65qRPe6vK/aoB79DT41uD/U8diIAblaQf0+uV43lACgt9s1iKh+/bTB5QIAUKfjNKmoy/tysbTeGgPu94DvQw6fD4dD4HoFej0yTSsT0DufoTAE5nM3GLMZFIaPw39DN97xb1SI733jAAAAAElFTkSuQmCC');
+    background-position: center;
+    background-size: contain;
+    vertical-align: top;
+    margin-top: 5px !important;
+ }
+ 
+ .w_d_e_name .w_d_e_el_hint_box {
+     background: #fff;
+     position: absolute;
+     top: 100%;
+     left: 100%;
+     padding: 5px 5px;
+     font-size: 11px;
+     text-align: left;
+     color: #222;
+     border: 1px solid #d7d7d7;
+     max-height: 550px;
+     overflow-x: auto;
+     font-weight: 400;
+     width: 300px;
+ }
+ 
+ .w_d_e_name .w_d_e_el_hint_box.right {
+    right: 100%;
+    left: initial;
+ }
+ 
+ .w_d_e_name .w_d_e_el_hint_box br {
+    line-height: 30px;
+ }
+ 
+ .w_d_e_name .w_d_e_el_hint_box .opt {
+    color: grey;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 0px;
+ }
+ 
+ .w_d_e_name .w_d_e_el_hint_box h2.wde_hint_header_hr {
+     text-align: center;
+     margin: 0;
+     font-size: 14px;
+     text-align: left;
+     padding: 0;
+     margin-top: 15px;
+     font-weight: 600;
+     color: #439a00;
+     border-top: 1px solid grey;
+     padding-top: 10px;
+     margin-bottom: 5px;
+ }
+ 
+ 
+ .w_d_e_name .w_d_e_el_hint_box .wde_hint_header {
+     margin: 0;
+     font-size: 14px;
+     color: #fff;
+     padding: 3px 5px;
+     margin-bottom: 5px; 
+     background: red;
+     background-image: repeating-linear-gradient( -45deg, #E03423 0, #E03423 3px, #E76154 1px, #E76154 10px );
+     text-align: center;
+     font-weight: 600;
+ }
+ 
+ .w_d_e_name .w_d_e_el_hint_box .w_d_e_hint_line {
+     display: flex;
+ }
+ 
+ .w_d_e_name .w_d_e_el_hint_box .w_d_e_hint_line .opt {
+     flex: 0 0 35%;
+ }
+ 
+ .w_d_e_name .w_d_e_el_hint_box .w_d_e_hint_line .value {
+     flex: 1 2 auto;
+ }
+ 
+/* wde_log_notify */
+
+.wde_log_notify-box {
+    position: fixed;
+    z-index: 9999999;
+    bottom: 10px;
+    right: 10px;
+}
+
+.wde_log_notify {
+    position: relative;
+    background: #fffffff7;
+    padding: 12px 15px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0px 1px 0px 0.25px rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 0px 0 3px 2px rgba(0, 0, 0, 0.08);
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background: linear-gradient(to right, #5bc0de, #5bc0ded9);
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 0 !important;
+}
+
+.wde_log_notify.error {
+    margin: 0;
+    margin-bottom: 10px;
+    background: #cf2a0e;
+    padding: 12px 15px;
+}
+
+.wde_log_notify.loading {
+    background: #5bc0de;
+}
+
+.wde_log_notify {
+    display: block;
+    margin-top: 10px;
+    position: relative;
+    opacity: 0;
+    -webkit-transform: translateX(120%);
+    transform: translateX(120%);
+}
+
+.wde_log_notify.show {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .wde_log_notify-box {
+        bottom: 120px;
+    }
+}
+
+/* end wde_log_notify */

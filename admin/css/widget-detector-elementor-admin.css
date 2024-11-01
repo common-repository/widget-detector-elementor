@@ -1,0 +1,184 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/* General */
+.wde-wrap {
+  /* Custom fields layout */
+  /* Alerts */
+}
+
+.wde-wrap .postbox-header h3 {
+  padding-left: 15px;
+}
+
+.wde-wrap div.wde-field-edit {
+  margin: 15px 0px;
+}
+
+.wde-wrap div.wde-field-edit label {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wde-wrap div.wde-field-edit div.wde-field-container {
+  display: inline-block;
+  padding: 0px 15px;
+  width: calc(100% - 200px - 35px);
+}
+
+.wde-wrap div.wde-field-edit p.wde-hint {
+  font-style: italic;
+}
+
+.wde-wrap .alert.alert-success {
+  background: #E6F4E7;
+  color: #376637;
+  border-left: 3px solid #88BF88;
+  margin: 0px 0px 5px 0px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.wde-wrap .alert.alert-danger {
+  background: #FFE6DF;
+  color: #AB3C1B;
+  border-left: 3px solid #E98B6F;
+  margin: 0px 0px 5px 0px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.wde-wrap .alert.alert-info {
+  background: #cce5ff;
+  color: #3d648e;
+  border-left: 3px solid #3d648e;
+  margin: 0px 0px 5px 0px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.wde-wrap .page-title-action {
+  padding: 8px 17px;
+  border: 1px solid #fd2b22;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  background: #ff4d43;
+  border-radius: 8px;
+  text-shadow: none;
+  top: 0;
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+  outline: none !important;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.wde-wrap .page-title-action:hover {
+  border: 1px solid #fd2b22;
+  color: #fd2b22;
+  background: transparent;
+}
+
+.wde-wrap .field-switch {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.wde-wrap .field-switch.wde-pro {
+  opacity: .5;
+}
+
+.wde-wrap .field-switch .toggle-switch {
+  display: inline-block;
+  background: #ccc;
+  border-radius: 16px;
+  width: 43px;
+  height: 21px;
+  position: relative;
+  vertical-align: middle;
+  transition: background 0.25s;
+}
+
+.wde-wrap .field-switch .toggle-switch:before,
+.wde-wrap .field-switch .toggle-switch:after {
+  content: "";
+}
+
+.wde-wrap .field-switch .toggle-switch:before {
+  display: block;
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  transition: left 0.25s;
+}
+
+.wde-wrap .field-switch .field-switch:hover .toggle-switch:before {
+  background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.wde-wrap .field-switch .toggle-checkbox:checked + .toggle-switch {
+  background: #1967ea;
+}
+
+.wde-wrap .field-switch .toggle-checkbox:checked + .toggle-switch:before {
+  left: 24px;
+}
+
+.wde-wrap .field-switch .toggle-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+.wde-wrap .field-switch .toggle-label {
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.wde-wrap .field-switch.loading::after {
+  content: "\f113";
+  font-family: dashicons;
+  display: inline-block;
+  line-height: 1;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  speak: never;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: auto;
+  -webkit-animation: wde-spin 2s infinite linear;
+  animation: wde-spin 2s infinite linear;
+  margin-left: 5px;
+  margin-top: -10px;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+}
+
+.wde-wrap .field-switch.loading::after {
+  position: absolute;
+  right: -30px;
+  color: #1967ea;
+}
+
+@keyframes wde-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

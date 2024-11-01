@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Detector for Elementor\n"
+"POT-Creation-Date: 2021-05-22 10:22+0200\n"
+"PO-Revision-Date: 2021-05-22 10:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: widget-detector-elementor.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: admin/class-widget-detector-elementor-admin.php:129
+msgid "Widget Detector"
+msgstr "Widget Detektor"
+
+#: admin/class-widget-detector-elementor-admin.php:136
+#: admin/class-widget-detector-elementor-admin.php:137
+msgid "Installed EL widgets"
+msgstr "Installierte Elementor Widgets"
+
+#: admin/class-widget-detector-elementor-admin.php:141
+#: admin/class-widget-detector-elementor-admin.php:142
+msgid "EL Widgets used"
+msgstr "Elementor Widgets in Verwendung"
+
+#: admin/class-widget-detector-elementor-admin.php:146
+#: admin/class-widget-detector-elementor-admin.php:147
+msgid "EL Widgets not in use"
+msgstr "Elementor Widgets nicht in Verwendung"
+
+#: admin/class-widget-detector-elementor-admin.php:151
+#: admin/class-widget-detector-elementor-admin.php:152
+msgid "EL Widgets used but deactivated"
+msgstr "Elementor Widgets installiert, aber deaktiviert"
+
+#: admin/class-widget-detector-elementor-admin.php:177
+msgid "Activity Time Settings"
+msgstr "Aktivitätszeit Einstellungen"
+
+#: admin/class-widget-detector-elementor-admin.php:178
+msgid "Settings "
+msgstr "Einstellungen "
+
+#: admin/class-widget-detector-elementor-admin.php:186
+msgid "General Section"
+msgstr "Allgemeiner Abschnitt"
+
+#: admin/class-widget-detector-elementor-admin.php:187
+msgid "These are general settings"
+msgstr "Dies sind allgemeine Einstellungen"
+
+#: admin/class-widget-detector-elementor-admin.php:195
+msgid "Delete time logs after"
+msgstr "Zeitprotokolle löschen nach"
+
+#: admin/class-widget-detector-elementor-admin.php:196
+msgid "Days"
+msgstr "Tage"
+
+#: application/controllers/Wde_not_in_use.php:47
+#: application/controllers/Wde_used_missing.php:47
+#: application/controllers/Wde_used_widgets.php:126
+#: application/controllers/Wde_used_widgets.php:270
+msgid "Parsing elementor data issue on page:"
+msgstr "Problem beim Parsen von Elementor Daten auf Seite:"
+
+#: application/views/wde/index.php:5
+msgid "Installed Elementor Widgets"
+msgstr "Installierte Elementor Widgets"
+
+#: application/views/wde/index.php:10
+#: application/views/wde_not_in_use/index.php:10
+#: application/views/wde_used_widgets/general.php:22
+#: application/views/wde_used_widgets/index.php:89
+msgid "EL Widget Category"
+msgstr "Elementor Widget Kategorie"
+
+#: application/views/wde/index.php:11
+#: application/views/wde_not_in_use/index.php:11
+#: application/views/wde_used_widgets/general.php:23
+#: application/views/wde_used_widgets/index.php:90
+msgid "EL Widget Name"
+msgstr "Elementor Widget Name"
+
+#: application/views/wde/index.php:12
+#: application/views/wde_not_in_use/index.php:12
+#: application/views/wde_used_missing/index.php:10
+#: application/views/wde_used_widgets/general.php:24
+#: application/views/wde_used_widgets/index.php:91
+msgid "EL Widget Key"
+msgstr "Elementor Widget Schlüssel"
+
+#: application/views/wde/index.php:13
+#: application/views/wde_not_in_use/index.php:13
+#: application/views/wde_used_widgets/general.php:25
+#: application/views/wde_used_widgets/index.php:92
+msgid "EL Widget Icon"
+msgstr "Elementor Widget Icon"
+
+#: application/views/wde/index.php:18
+#: application/views/wde_not_in_use/index.php:18
+#: application/views/wde_used_missing/index.php:15
+#: application/views/wde_used_widgets/general.php:65
+msgid "No data found."
+msgstr "Keine Daten gefunden."
+
+#: application/views/wde_not_in_use/index.php:5
+msgid "Elementor Widgets not used on published posts/pages"
+msgstr ""
+"Elementor Widgets nicht auf veröffentlichten Beiträgen/Seiten verwendet"
+
+#: application/views/wde_used_missing/index.php:5
+msgid "Elementor Widgets used on published posts/pages but missing"
+msgstr ""
+"Elementor Widgets werden in veröffentlichten Beiträgen/Seiten verwendet, "
+"fehlen aber"
+
+#: application/views/wde_used_widgets/general.php:5
+#: application/views/wde_used_widgets/index.php:5
+msgid "Used Elementor Widgets"
+msgstr "Verwendete Elementor Widgets"
+
+#: application/views/wde_used_widgets/general.php:9
+#: application/views/wde_used_widgets/index.php:9
+msgid "Per Page"
+msgstr "Pro Seite"
+
+#: application/views/wde_used_widgets/general.php:10
+#: application/views/wde_used_widgets/index.php:10
+msgid "All in General"
+msgstr "Alle allgemein"
+
+#: application/views/wde_used_widgets/general.php:16
+msgid "Used Elementor Widgets on website"
+msgstr "Verwendete Elementor Widgets auf der Website"
+
+#: application/views/wde_used_widgets/general.php:47
+#: application/views/wde_used_widgets/index.php:111
+msgid "Widget missing"
+msgstr "Widget fehlt"
+
+#: application/views/wde_used_widgets/index.php:24
+msgid "EL Widget Categories"
+msgstr "Elementor Widget Kategorie"
+
+#: application/views/wde_used_widgets/index.php:30
+msgid "EL Widgets"
+msgstr "Elementor Widgets"
+
+#: application/views/wde_used_widgets/index.php:48
+msgid "Text criteria"
+msgstr "Text Kriterien"
+
+#: application/views/wde_used_widgets/index.php:51
+msgid "Filter"
+msgstr "Filter"
+
+#: application/views/wde_used_widgets/index.php:83
+msgid "Widgets not found"
+msgstr "Widgets nicht gefunden"
+
+#: application/views/wde_used_widgets/index.php:159
+msgid "Show all..."
+msgstr "Zeige alle …"
+
+#: application/views/wde_used_widgets/index.php:160
+msgid "Hide a bit.."
+msgstr "Ein bisschen verstecken …"
+
+#. translators: 1: Plugin name 2: Elementor
+#: widget-detector-elementor.php:44
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "\"%1$s\" erfordert, dass \"%2$s\" installiert und aktiviert ist."
+
+#. Plugin Name of the plugin/theme
+#: widget-detector-elementor.php:45
+msgid "Widget Detector for Elementor"
+msgstr "Widget Detector for Elementor"
+
+#: widget-detector-elementor.php:46
+msgid "Elementor"
+msgstr "Elementor"
+
+#. Plugin URI of the plugin/theme
+msgid "widget-detector-elementor"
+msgstr "Widget-Detektor-Elementor"
+
+#. Description of the plugin/theme
+msgid ""
+"Detect Elementor widgets used on pages, also not used widgets or missing "
+"widgets."
+msgstr ""
+"Erkennt Elementor Widgets, die auf Seiten verwendet werden, auch nicht "
+"verwendete Widgets oder fehlende Widgets."
+
+#. Author of the plugin/theme
+msgid "ElementInvader & FreelancersTools (Ivica Delić)"
+msgstr "ElementInvader & FreelancersTools (Ivica Delić)"
+
+#. Author URI of the plugin/theme
+msgid "elementinvader.com"
+msgstr "elementinvader.com"
